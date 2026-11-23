@@ -1,0 +1,7 @@
+{
+  "model_load_s": 7.67,
+  "images": 83,
+  "mean_ms": 116.5,
+  "median_ms": 108.6,
+  "p95_ms": 124.6
+}

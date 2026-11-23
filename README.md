@@ -60,6 +60,7 @@ Without `GROQ_API_KEY` in `.env` the advisor runs in offline "extractive" mode (
 python -m src.pipeline path\to\leaf.jpg --crop Tomato --lat 13.08 --lon 80.27   # image -> decision + advice + weather
 python -m src.agent.weather_check 13.08 80.27       # rain probability, next 6 h
 python -m scripts.agent_scenarios                   # agent vs bare CNN on real images -> reports/agent_scenarios.csv
+python -m scripts.evaluate                          # per-class F1, threshold sweep, latency, review sheet -> reports/eval/
 ```
 
 Weather uses OpenWeatherMap if `OPENWEATHER_API_KEY` is set, otherwise Open-Meteo (free, no key).
@@ -108,4 +109,4 @@ data/            images, knowledge base (mostly gitignored)
 | 3 | Agent: crop mask, confidence gate, confusable pairs, healthy shortcut, weather | Built |
 | 4 | Automation: Telegram alerts (+ optional SMS), SQLite detection log | Built; Telegram tested live |
 | 5 | FastAPI `/predict`, Streamlit UI, Docker, free hosting | Built and tested locally; hosting pending |
-| 6 | Evaluation (RAG review, agent scenarios, optional PlantDoc), report | |
+| 6 | Evaluation (per-class metrics, agent scenarios, threshold sweep, latency, RAG review sheet), report | Built; manual review pending |

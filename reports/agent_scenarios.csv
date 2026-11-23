@@ -83,9 +83,9 @@ ood,20260719_113928.jpg,not_a_supported_plant,,Strawberry___healthy,Strawberry__
 ood,20260719_113928.jpg,not_a_supported_plant,Tomato,Strawberry___healthy,Tomato___Late_blight,0.9644,0.192,uncertain_retake_photo,crop_mismatch
 ood,20260719_113945.jpg,not_a_supported_plant,,Tomato___Target_Spot,Tomato___Target_Spot,0.5211,1.0,uncertain_retake_photo,low_confidence
 ood,20260719_113945.jpg,not_a_supported_plant,Tomato,Tomato___Target_Spot,Tomato___Target_Spot,0.5788,0.9004,uncertain_retake_photo,low_confidence
-ood,20260813_112706.jpg,not_a_supported_plant,,Grape___Black_rot,Grape___Black_rot,0.6258,1.0,uncertain_retake_photo,low_confidence
-ood,20260813_112706.jpg,not_a_supported_plant,Tomato,Grape___Black_rot,Tomato___Late_blight,0.9107,0.2804,advise,
-ood,20260813_112712.jpg,not_a_supported_plant,,Grape___Esca_(Black_Measles),Grape___Esca_(Black_Measles),0.5355,1.0,uncertain_retake_photo,low_confidence
-ood,20260813_112712.jpg,not_a_supported_plant,Tomato,Grape___Esca_(Black_Measles),Tomato___Late_blight,0.4834,0.0002,uncertain_retake_photo,crop_mismatch
-ood,20260826_214706.jpg,not_a_supported_plant,,Tomato___Septoria_leaf_spot,Tomato___Septoria_leaf_spot,0.4017,1.0,uncertain_retake_photo,low_confidence
-ood,20260826_214706.jpg,not_a_supported_plant,Tomato,Tomato___Septoria_leaf_spot,Tomato___Septoria_leaf_spot,0.8607,0.4667,advise,
+ood,20260813_112706.jpg,not_a_supported_plant,,Grape___Black_rot,Grape___Black_rot,0.9977,1.0,advise,
+ood,20260813_112706.jpg,not_a_supported_plant,Tomato,Grape___Black_rot,Tomato___Late_blight,0.9812,0.0001,uncertain_retake_photo,crop_mismatch
+ood,20260813_112712.jpg,not_a_supported_plant,,Tomato___Late_blight,Tomato___Late_blight,0.5037,1.0,uncertain_retake_photo,low_confidence
+ood,20260813_112712.jpg,not_a_supported_plant,Tomato,Tomato___Late_blight,Tomato___Late_blight,0.9973,0.505,advise,
+ood,20260826_214706.jpg,not_a_supported_plant,,Peach___Bacterial_spot,Peach___Bacterial_spot,0.4874,1.0,uncertain_retake_photo,low_confidence
+ood,20260826_214706.jpg,not_a_supported_plant,Tomato,Peach___Bacterial_spot,Tomato___Septoria_leaf_spot,0.6466,0.3316,uncertain_retake_photo,low_confidence
