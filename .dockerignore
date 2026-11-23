@@ -1,0 +1,17 @@
+.env
+venv/
+.venv/
+.git/
+**/__pycache__/
+.pytest_cache/
+
+data/chroma_db/
+data/knowledge_base/raw/
+data/*.db
+
+data/sanity_check/
+data/ood_test_images/
+data/real_world_test_images/
+data/uploads/
+Project_Spec_From_Scratch.md
+reports/

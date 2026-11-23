@@ -1,0 +1,22 @@
+Tomato___Septoria_leaf_spot
+mode: llm
+
+**Summary:** Septoria leaf spot is a fungal disease that causes small grey‑centered spots with dark margins on tomato leaves, which can coalesce and lead to blighted foliage and reduced yield. It is serious if humidity is high and infected debris remains in the field. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Remove and destroy all infected leaves, stems and plant parts to reduce inoculum. [1]  
+- Practice crop rotation and avoid planting tomatoes on the same site after a season of infection. [1]  
+- Manage field humidity by ensuring good air flow and avoiding overhead irrigation. [1]  
+- Treat seeds with Trichoderma asperellum at 4 g per kg of seed before sowing. [1]
+
+**Chemical options:**  
+- Apply a fungicide containing Fluxapyroxad 250 g L⁻¹ + Pyraclostrobin 250 g L⁻¹ as a spray at 200–250 ml ha⁻¹. [1]  
+
+**When to get expert help:**  
+- If disease spreads rapidly despite cultural measures and seed treatment. [1]  
+- If you are unsure about correct spray timing or dosage. [1]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Tomato diseases: Septoria leaf spot - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/tomato_diseases_4.html

@@ -1,0 +1,13 @@
+Tomato___Tomato_mosaic_virus
+mode: extractive_fallback
+
+**What the agricultural guides say about Tomato - Tomato mosaic virus:**
+
+[1] On This Page Comments on the Disease Symptoms on tomato plants infected with Tobacco mosaic virus vary with the cultivar and the specific virus or strain. A mild mosaic develops on leaves with some leaf malformation, including a fernlike appearance. During cool weather shoestringlike symptoms appear on leaves, which is also characteristic of Cucumber mosaic virus in tomato. Necrotic patterns may develop on fruit. Comments on the Disease These viruses are commonly encountered in transplants or fresh market tomatoes where the plants are trained or handled by workers because the viruses are easil...
+
+[2] (emeritus), Plant Pathology, UC Davis G. Miyao (emeritus), UC Cooperative Extension Yolo County K.V. Subbarao, Plant Pathology, UC Davis J.J. Stapleton, UC IPM and Kearney Agricultural Research and Extension Center, Parlier B.J. Aegerter, UC Cooperative Extension San Joaquin County (powdery mildew on field-grown tomatoes) Acknowledgement for Contributions to Plant Diseases B.W. Falk, Plant Pathology, UC Davis R.L. Gilbertson, Plant Pathology, UC Davis (tomato yellow leaf curl) Text Updated: 12/13...
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Tomato: Tobacco Mosaic - tomato-infecting tobamoviruses (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/tomato/tobacco-mosaic/

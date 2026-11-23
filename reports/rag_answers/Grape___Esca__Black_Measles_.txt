@@ -1,0 +1,23 @@
+Grape___Esca_(Black_Measles)
+mode: llm
+
+**Summary:** Esca (Black Measles) is a trunk disease of grapevines that causes interveinal leaf striping, fruit spots, and can lead to sudden shoot dieback (apoplexy) [1][3].
+
+**What to do now (cultural / non‑chemical):**  
+- Prune vines during dormancy and seal pruning wounds promptly, as wounds are infection sites for several weeks after pruning [1].  
+- Remove and destroy heavily infected wood, canes, or entire vines that show severe symptoms, because the pathogen becomes a permanent wood infection that cannot be cured with chemicals [1].  
+- Maintain good vineyard sanitation by clearing fallen leaves and debris that may harbor fungal structures [1].  
+- Avoid excessive irrigation and ensure good canopy airflow to reduce humidity that favors fungal growth [1].
+
+**Chemical options:**  
+- Not found in the knowledge base.  
+
+**When to get expert help:**  
+- If you observe sudden shoot dieback (apoplexy) or extensive wood decay despite cultural measures [1][3].  
+- When you are unable to identify or properly remove infected wood.  
+- If disease symptoms spread rapidly across the vineyard.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Grape: Esca (Black Measles) (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/grape/esca-black-measles/

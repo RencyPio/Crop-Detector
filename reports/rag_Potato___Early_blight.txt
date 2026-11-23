@@ -1,0 +1,25 @@
+
+Mode: llm  Model: openai/gpt-oss-120b  Grounding: {'unsupported_numbers': [], 'uncited_bullets': []}
+
+**Summary:** Early blight of potato is caused by *Alternaria solani* and appears as brown‑black angular spots with concentric rings on leaves; it can spread quickly and reduce yield if not controlled. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Use disease‑free seed tubers for planting. [1]  
+- Remove and destroy all infected plant debris after harvest. [1]  
+- Plant the resistant variety Kufri Sindhuri if available. [1]  
+- Maintain good field hygiene and avoid excessive nitrogen on poorly manured fields. [1]
+
+**Chemical options:**  
+- Spray Zineb 0.2 % early in the season and repeat every 15–20 days. [1][2]  
+- Spray Captan 0.2 % early in the season and repeat every 15–20 days. [1][2]
+
+**When to get expert help:**  
+- If disease appears despite early sprays and cultural measures. [1]  
+- If you cannot obtain disease‑free seed or resistant varieties. [1]  
+- If you need assistance selecting or applying fungicides safely. [1]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+  [1] Early blight of potato - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_potato_2.html
+  [3] Potato: Early Blight (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/potato/early-blight/

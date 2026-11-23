@@ -1,0 +1,25 @@
+Tomato___Bacterial_spot
+mode: llm
+
+**Summary:** Tomato bacterial spot is caused by *Xanthomonas axonopodis* and produces small brown water‑soaked spots with yellow halos on leaves and fruit; it can lead to defoliation and yield loss if not managed promptly. [1][2]  
+
+**What to do now (cultural / non‑chemical):**  
+- Use disease‑free seed or certified disease‑free transplants to prevent introduction of the pathogen. [2][3]  
+- Remove and destroy infected plant debris and any volunteer tomato plants after harvest. [1][2]  
+- Avoid sprinkler irrigation; use drip irrigation or water at the base of plants to keep foliage dry. [2][3]  
+- Rotate tomato with a non‑host crop and keep weed hosts such as nightshade away from the field. [2][3]  
+
+**Chemical options:**  
+- Apply Streptocycline at 40–100 ppm (equivalent to 20 g per acre) as a spray; follow label for timing and repeat as needed. [1]  
+- Use a copper‑based protectant (e.g., copper hydroxide/Kocide 3000) at 0.75–1.75 lb per acre; apply at first sign of disease and repeat every 10–14 days during warm, moist conditions. This recommendation is from the USA. [5]  
+
+**When to get expert help:**  
+- If disease spreads rapidly despite cultural measures and the first spray. [2]  
+- If you are unsure about the correct product label rates or safety intervals. [5]  
+- If you need assistance selecting a copper product that is approved for organic production. [5]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Tomato diseases: Bacterial leaf spot (Xanthomonas) - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html
+[2] Tomato: Bacterial Spot (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/

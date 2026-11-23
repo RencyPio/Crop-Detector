@@ -1,0 +1,28 @@
+Apple___Black_rot
+mode: llm
+
+**Summary:** Black rot is a fungal disease of apples that can cause leaf loss, fruit rot, and limb cankers, leading to reduced tree vigor and marketable yield. It is serious and can kill branches if not managed. [4][1]  
+
+**What to do now (cultural / non‑chemical):**  
+- Remove and destroy mummified fruit, dead trees, and infected limbs to reduce inoculum. [1]  
+- Prune out cankers and dead wood; burn or chop prunings and keep the orchard clear of debris. [2][3]  
+- Sanitize tools and avoid wounding trees during pruning. [1]  
+
+**Chemical options:**  
+- Apply copper‑based protectant sprays early in the season. [1]  
+- Use lime‑sulfur sprays as a protectant early in the season. [1]  
+- Use Daconil (chlorothalonil) as a protectant early in the season. [1]  
+- In commercial orchards, apply ethylene bisdithiocarbamate (EBDC) fungicides such as Polyram, Manzate, or Dithane. [1]  
+- After petal fall, apply Captan at the full rate. [1]  
+- Use a combination of Benlate and Captan after petal fall for additional control. [1]  
+
+**When to get expert help:**  
+- If disease pressure is high and sanitation alone does not reduce symptoms. [3]  
+- If you observe extensive cankers, severe leaf loss, or fruit rot despite cultural measures. [4]  
+- When selecting and timing fungicide applications for your specific orchard conditions. [1]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Black Rot Disease in Apples - West Virginia University Extension (USA) https://extension.wvu.edu/lawn-gardening-pests/plant-disease/tree-fruit-disease/black-rot-disease-in-apples
+[2] Black Rot of Apple - eXtension Apples (USA) https://apples.extension.org/?p=676

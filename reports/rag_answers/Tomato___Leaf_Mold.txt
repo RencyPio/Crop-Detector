@@ -1,0 +1,15 @@
+Tomato___Leaf_Mold
+mode: extractive_fallback
+
+**What the agricultural guides say about Tomato - Leaf Mold:**
+
+[1] purchased from a reputable source. Applying chemical treatments • In ongoing field studies, Champ 30 WG and Zonix showed the best control of tomato leaf mold in organic trials that took place in 2017 and 2018. • Control methods for conventional growers include the Quadris Top product, containing azoxystrobin and difenoconazole or products such as Bravo Weather Stik, containing chlorothalonil. • For more information: consult the Cornell Integrated Crop and Pest Management Guidelines for Vegetable Crops available at cropandpestguides.cce.cornell.edu. • Visit the pest management section of the Co...
+
+[2] Plant Pathology and Plant-Microbe Biology Section School of Integrative Plant Science Cornell Cooperative Extension College of Agriculture and Life Sciences Cornell AgriTech Tomato Leaf Mold Tomato leaf mold is a foliar disease that is especially problematic in greenhouse and high tunnels. It was first described in 1883 as a pathogen that causes leaf lesions. It is less common in the field compared to greenhouses and high tunnels. With the rise of high tunnel construction in New York State through assistance programs by the Natural Resources Conservation Service, tomato leaf mold is appearing ...
+
+[3] (Figure 1). Upon landing on leaves, the fungus lands and enters plant stomata used in gas exchange. The stomata become clogged and tomato plants cannot respire well, resulting in wilting, defoliation, and infection. Disease symptoms first appear after seven days as light green spots on leaves. Soon after, olive-green asexual conidia emerge, and eventually the spots become necrotic (Figure 2). Disease symptoms appear first on the lower leaves of tomato plants. Fruit production may not be severely hampered during the earlier stages of disease, but over time, disease severity increases and defoli...
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Tomato Leaf Mold factsheet - Cornell University (SARE project factsheet) (USA) https://projects.sare.org/media/pdf/t/o/m/tomatoleafmold_factsheet-1.pdf

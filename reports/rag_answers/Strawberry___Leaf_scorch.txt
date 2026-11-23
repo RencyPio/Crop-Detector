@@ -1,0 +1,25 @@
+Strawberry___Leaf_scorch
+mode: llm
+
+**Summary:** Strawberry leaf scorch is a fungal disease that creates brown‑to‑purple spots on leaves, can scorch foliage, and reduces fruit yield and quality. It can become serious if wet conditions and overhead irrigation favor spread[2].  
+
+**What to do now (cultural / non‑chemical):**  
+- Increase air circulation by planting in sunny, open sites and avoid crowding[4].  
+- Use drip or furrow irrigation instead of overhead sprinklers and water in the morning so foliage dries quickly[1].  
+- Remove all strawberry plant debris at the end of the growing season and dispose of it away from future plantings[1][4].  
+- Plant strawberries as annuals on raised beds or berms to reduce overwintering of the fungus[4].  
+- Control weeds to improve drying of leaves[5].  
+
+**Chemical options:**  
+- Not found in the knowledge base.  
+
+**When to get expert help:**  
+- If leaf scorch continues despite cultural practices.  
+- If fruit shows severe discoloration or sunken lesions.  
+- When you need specific fungicide dose and spray schedule for your region.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Leaf Scorch of Strawberries - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/home-and-landscape/leaf-scorch-of-strawberries/
+[3] Strawberry Leaf Diseases (PLPATH-FRU-35) - Ohio State University Extension (USA) https://ohioline.osu.edu/factsheet/plpath-fru-35

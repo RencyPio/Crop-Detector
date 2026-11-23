@@ -1,0 +1,26 @@
+Corn_(maize)___Common_rust_
+mode: llm
+
+**Summary:** Common rust of maize is caused by *Puccinia sorghi* and appears as brown‑red pustules on leaves; it can spread to sheaths and stalks and reduce yield if severe [1].
+
+**What to do now (cultural / non‑chemical):**  
+- Remove and destroy alternate hosts such as Oxalis species from the field [1].  
+- Collect crop residues after harvest and destroy them by burning or burying to reduce inoculum [1].  
+
+**Chemical options:**  
+- Foliar spray of kresoxim‑methyl 44.3 % SC at 1 ml per litre of water, applied at 35 days after sowing (DAS) [1].  
+- Foliar spray of tebuconazole at 1 ml per litre of water, applied at 35 DAS [1].  
+- Foliar spray of chlorothalonil at 2 ml per litre of water, applied at 35 DAS [1].  
+- Foliar spray of mancozeb at 2 ml per litre of water, applied at 35 DAS [1].  
+- Repeat the same spray (any of the above products) at 50 DAS [1].  
+
+**When to get expert help:**  
+- If rust spreads rapidly to sheaths, husks or stalks despite the above sprays [1].  
+- If you are unable to locate or remove alternate host plants [1].  
+- If you observe severe leaf death or yield loss and need advice on resistant hybrids [2].
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Maize diseases: Common rust - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_4.html
+[2] Common Rust of Corn - Crop Protection Network (USA) https://cropprotectionnetwork.org/encyclopedia/common-rust-of-corn

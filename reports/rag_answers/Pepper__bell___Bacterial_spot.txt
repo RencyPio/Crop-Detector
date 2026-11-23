@@ -1,0 +1,23 @@
+Pepper,_bell___Bacterial_spot
+mode: llm
+
+**Summary:** Bacterial spot on bell pepper is caused by *Xanthomonas campestris* and can cause leaf loss, stem cankers and fruit lesions, reducing yield significantly. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Use disease‑free seed and practice field sanitation. [1]  
+- Avoid spraying streptomycin after fruits have started to form. [1]  
+
+**Chemical options:**  
+- Spray mancozeb at 2 g per litre of water. [1]  
+- Spray copper oxychloride at 2.5 g per litre of water. [1]  
+- Treat seed with 0.1 % mercuric chloride solution for 2–5 minutes. [1]  
+- Spray seedlings with Bordeaux mixture at 1 % or copper oxychloride at 0.25 %. [1]  
+
+**When to get expert help:**  
+- If disease spreads rapidly despite these measures. [1]  
+- If you need assistance selecting certified disease‑free seed. [1]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Chilli diseases: Bacterial leaf spot - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/chilli_diseases_4.html

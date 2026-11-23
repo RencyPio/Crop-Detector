@@ -1,0 +1,26 @@
+Peach___Bacterial_spot
+mode: llm
+
+**Summary:** Peach bacterial spot is a bacterial disease that can cause severe leaf loss, twig cankers, and fruit blemishes, reducing fruit quality and yield, especially on susceptible varieties [1].
+
+**What to do now (cultural / non‑chemical):**  
+- Plant trees in well‑drained, sunny sites with good air flow; avoid low‑lying or shaded areas [5].  
+- Remove and destroy any wild or neglected stone‑fruit trees nearby [2][5].  
+- Choose and plant vigorous, disease‑free trees from a reputable nursery [2][5].  
+- Prune annually to improve air circulation, doing so in dry weather during the latter half of dormancy [2].  
+- Maintain adequate nitrogen fertilization to keep trees vigorous but avoid excessive growth [1][3].  
+- Select varieties with some resistance to bacterial spot, such as Belle of Georgia, Biscoe, Candor, Comanche, Garnet Beauty, Harbrite, Harken, Late Sunhaven, Loring, Madison, Norman, Pekin, Raritan Rose, Redhaven, Redskin, and Sunhaven [2].
+
+**Chemical options:**  
+- Not found in the knowledge base. [2]
+
+**When to get expert help:**  
+- If leaf spots and defoliation continue despite cultural measures.  
+- When fruit shows extensive sunken, black spots or gum exudation.  
+- If twig cankers appear and spread, threatening tree health.  
+- For up‑to‑date spray programs, contact your local extension office for the latest bulletin [2].
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Bacterial Spot of Stone Fruits (PLPATH-FRU-38) - Ohio State University Extension (USA) https://ohioline.osu.edu/factsheet/plpath-fru-38

@@ -1,0 +1,22 @@
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
+mode: llm
+
+**Summary:** Gray leaf spot of corn, caused by *Cercospora* fungus, can cause serious yield loss if weather is warm and humid. It appears on lower leaves before tasseling and can kill whole leaves. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Plant resistant hybrids or inbreds when possible. [1]  
+- Rotate corn with non‑cereal crops to break the disease cycle. [1]  
+- Practice tillage to destroy corn residue that harbors the fungus. [1]  
+
+**Chemical options:**  
+- Not found in the knowledge base.  
+
+**When to get expert help:**  
+- Disease spreads rapidly despite cultural measures.  
+- You need a fungicide but have no label information.  
+- Symptoms are severe and affecting yield.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Gray Leaf Spot of Corn - Crop Protection Network (USA) https://cropprotectionnetwork.org/encyclopedia/gray-leaf-spot-of-corn

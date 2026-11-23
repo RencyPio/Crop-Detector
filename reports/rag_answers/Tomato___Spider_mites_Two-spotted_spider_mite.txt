@@ -1,0 +1,22 @@
+Tomato___Spider_mites Two-spotted_spider_mite
+mode: llm
+
+**Summary:** Tomato plants are affected by red spider mite (Tetranychus spp.), which causes reddish‑brown bronzy leaves, webbing, withering and reduced flower and fruit set. It can be serious if infestation is severe[1].  
+
+**What to do now (cultural / non‑chemical):**  
+- Monitor plants regularly for signs of webbing and leaf discoloration[1].  
+- Remove heavily infested leaves and destroy them to reduce mite numbers[1].  
+- Keep the crop well‑watered and avoid excessive nitrogen that favors mite growth[1].  
+
+**Chemical options:**  
+- Spray wettable sulphur 50 WP at 2 g per litre of water; apply as a foliar spray when mites are observed[1].  
+
+**When to get expert help:**  
+- If mite numbers keep increasing despite sulfur spray[1].  
+- If leaf damage spreads rapidly and fruit set is severely affected[1].  
+- If you need alternative pesticides or integrated pest management advice[1].
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Tomato pests: Red spider mite - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/tomato/tomato_7.html

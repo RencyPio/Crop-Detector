@@ -1,0 +1,36 @@
+
+Mode: llm  Model: openai/gpt-oss-120b  Grounding: {'unsupported_numbers': [], 'uncited_bullets': []}
+
+**Summary:** Early blight of tomato is caused by *Alternaria solani* and appears as brown spots with concentric rings on leaves and fruit. It can spread quickly in warm, humid, rainy conditions and may cause serious yield loss if not managed. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Remove and destroy all crop debris after harvest to reduce inoculum. [1]  
+- Treat seeds with *Trichoderma asperellum* at 4 g per kg of seed before planting. [1]  
+- Practice crop rotation, avoiding tomato or related crops for 2–3 years. [5]  
+- Keep the field well‑drained and avoid overhead irrigation that leaves foliage wet. [4]  
+
+**Chemical options:**  
+- Spray Iprodione 50 % WP at 600 g per acre. [1]  
+- Spray Azoxystrobin 23 % SC at 200 ml per acre. [1]  
+- Spray Mancozeb 35 % SC at 1 kg per acre. [1]  
+- Spray Metiram 70 % WG at 1.0 kg per acre. [1]  
+- Spray Pyraclostrobin 20 % WG at 200 g per acre. [1]  
+- Spray Zineb 75 % WP at 800 g per acre. [1]  
+- Spray Azoxystrobin 18.2 % + Difenoconazole 11.4 % SC at 200 ml per acre. [1]  
+- Spray Metiram 55 % + Pyraclostrobin 5 % WG at 600 g per acre. [1]  
+- Spray Tebuconazole 50 % + Trifloxystrobin 25 % WG at 140 g per acre. [1]  
+
+**When to get expert help:**  
+- Disease spreads rapidly despite cultural measures.  
+- Fungicide applications are needed repeatedly or at critical growth stages.  
+- You are unsure about correct mixing, equipment calibration, or safety precautions.  
+- Symptoms worsen after treatments.  
+
+(Each bullet ends with the source passage number as required.)
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+  [1] Early Blight: Alternaria solani - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html
+  [2] Early Blight of Tomato - NC State Extension (USA) https://content.ces.ncsu.edu/early-blight-of-tomato
+  [4] Tomato: Early Blight (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/tomato/early-blight/

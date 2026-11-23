@@ -1,0 +1,25 @@
+Squash___Powdery_mildew
+mode: llm
+
+**Summary:** Powdery mildew on squash appears as white, fluffy growth on leaves and stems and can reduce photosynthesis and yield if not managed promptly. It is a common and serious disease in humid conditions. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Plant resistant squash varieties if available. [2]  
+- Remove and destroy infected plant debris and weeds that can harbor the fungus. [2]  
+- Space plants to improve air circulation and reduce leaf wetness. [2]  
+- Monitor regularly from the vegetative stage through fruit development and apply controls at the first sign of symptoms. [2]
+
+**Chemical options:**  
+- **Cinnamaldehyde (Cinnacure)** – Apply 0.25–1 gal per acre; re‑enter after 4 hours; no pre‑harvest interval. Make no more than two consecutive applications before rotating to a different mode of action. [3][4] (USA)  
+- **Potassium bicarbonate (Kaligreen)** – Apply 2.5–5 lb per acre; re‑enter after 4 hours; 1‑day pre‑harvest interval. Use the higher rate when disease pressure is severe. [4] (USA)  
+- **Micronized sulfur (Microthiol)** – Apply at the label‑specified rate; re‑enter after 24 hours; no pre‑harvest interval. Avoid use on sulfur‑sensitive varieties and when temperatures exceed 95 °F. [4] (USA)  
+
+**When to get expert help:**  
+- If disease spreads rapidly despite cultural measures and the first fungicide application.  
+- If you need assistance selecting a resistant squash variety for your region.  
+- If you observe phytotoxic injury after applying any product.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Cucurbits: Powdery Mildew (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/cucurbits/powdery-mildew/

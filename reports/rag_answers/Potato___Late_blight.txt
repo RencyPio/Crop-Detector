@@ -1,0 +1,25 @@
+Potato___Late_blight
+mode: llm
+
+**Summary:** Potato late blight is a serious disease caused by *Phytophthora infestans* that attacks leaves, stems and tubers, leading to rapid crop loss if not managed promptly. [2]
+
+**What to do now (cultural / non‑chemical):**  
+- Plant resistant varieties such as Kufri Naveen, Kufri Jeevan, Kufri Alenkar, Kufri Khasi Garo or Kufri Moti. [2]  
+- Remove and destroy infected foliage a few days before harvest; spray a suitable herbicide to aid foliage destruction. [2]  
+- Avoid injuries to tubers at harvest and do not store visibly infected tubers. [2]  
+- Keep fields dry and reduce leaf wetness by improving field drainage and avoiding overhead irrigation during humid periods. [2]
+
+**Chemical options:**  
+- Spray mancozeb at 0.2 % concentration as a protective spray to prevent tuber infection. [2]  
+- Spray zineb at 0.2 % concentration as a protective spray to prevent tuber infection. [2]
+
+**When to get expert help:**  
+- If disease appears despite protective sprays and cultural measures. [2]  
+- When tuber loss exceeds 10 % of the expected yield. [2]  
+- If you need assistance selecting appropriate herbicides for foliage destruction before harvest. [2]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Late blight of potato: Phytophthora infestans - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_potato_1.html
+[3] Potato Late Blight - NC State Extension (USA) https://content.ces.ncsu.edu/potato-late-blight

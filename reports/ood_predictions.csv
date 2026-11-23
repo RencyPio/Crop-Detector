@@ -1,0 +1,8 @@
+image,top1,p1,top2,p2,top3,p3
+20260719_113914.jpg,Tomato___Late_blight,0.6266,Potato___Late_blight,0.1868,Tomato___Early_blight,0.1382
+20260719_113924.jpg,Tomato___Late_blight,0.9989,Tomato___Early_blight,0.001,Tomato___Septoria_leaf_spot,0.0
+20260719_113928.jpg,Strawberry___healthy,0.7816,Tomato___Late_blight,0.1852,Cherry_(including_sour)___Powdery_mildew,0.0143
+20260719_113945.jpg,Tomato___Target_Spot,0.5211,Tomato___Early_blight,0.1422,Tomato___Late_blight,0.1132
+20260813_112706.jpg,Grape___Black_rot,0.6258,Tomato___Late_blight,0.2553,Squash___Powdery_mildew,0.0688
+20260813_112712.jpg,Grape___Esca_(Black_Measles),0.5355,Strawberry___Leaf_scorch,0.4262,Grape___Black_rot,0.0381
+20260826_214706.jpg,Tomato___Septoria_leaf_spot,0.4017,Peach___Bacterial_spot,0.1346,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.1193

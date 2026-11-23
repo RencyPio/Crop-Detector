@@ -1,0 +1,30 @@
+
+Mode: llm  Model: openai/gpt-oss-120b  Grounding: {'unsupported_numbers': [], 'uncited_bullets': []}
+
+**Summary:** Tomato late blight is caused by *Phytophthora infestans* and can quickly destroy leaves, stems and fruit, leading to severe loss if not managed promptly. [1]
+
+**What to do now (cultural / non‑chemical):**  
+- Plant early to avoid peak disease pressure. [2]  
+- Keep foliage dry; avoid sprinkler irrigation and remove water from leaves promptly. [2]  
+- Scout fields regularly and remove any infected plants, fruit, weeds or volunteer nightshades. [2][5]  
+- Use disease‑resistant tomato varieties where available. [2][5]  
+- Apply soil‑borne biocontrol *Trichoderma asperellum* at 1 kg per acre before planting. [1]
+
+**Chemical options:**  
+- Spray Cyazofamid 34.5 % SC at 80 ml per acre. [1]  
+- Spray Azoxystrobin 23 % SC at 200 ml per acre. [1]  
+- Spray Mancozeb 35 % SC at 1000 g per acre. [1]  
+- Spray Zineb 75 % WP at 800 g per acre. [1]  
+- Spray Azoxystrobin 18.2 % + Difenoconazole 11.4 % SC at 200 ml per acre. [1]
+
+**When to get expert help:**  
+- Disease appears despite cultural measures and initial fungicide applications. [5]  
+- You need assistance selecting resistant varieties suited to your area. [2]  
+- Weather forecasts predict prolonged wet conditions and you are unsure about timing of protectant sprays. [5]
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+  [1] Tomato diseases: Late blight - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html
+  [2] Tomato Late Blight - NC State Extension (USA) https://content.ces.ncsu.edu/tomato-late-blight
+  [4] Tomato: Late Blight (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/tomato/late-blight/

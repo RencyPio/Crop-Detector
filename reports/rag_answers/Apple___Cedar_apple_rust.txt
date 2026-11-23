@@ -1,0 +1,25 @@
+Apple___Cedar_apple_rust
+mode: llm
+
+**Summary:** Cedar‑apple rust is a fungal disease that needs both apple trees and nearby eastern red cedars to complete its cycle; it causes orange‑yellow leaf lesions and can reduce fruit marketability, but it is manageable with cultural practices and, if needed, fungicide programs [1][4].
+
+**What to do now (cultural / non‑chemical):**
+- Plant resistant apple cultivars such as ‘Baldwin’, ‘Empire’, ‘Enterprise’, ‘Gala Supreme’, ‘Liberty’, ‘Regent’, ‘Spartan’, ‘Viking’, etc. [3]  
+- Remove or destroy wild or unwanted eastern red cedars that have rust galls near the orchard. [2][3]  
+- Prune apple trees to open the canopy for better light, air flow, and spray penetration. [3]  
+- Scout for cedar galls in May‑June and for leaf lesions on apples in mid‑summer; monitor weather for wet periods that favor spore release. [3][5]  
+- Apply protectant fungicides at bloom if rust was seen the previous year and weather is warm and wet; make follow‑up sprays as indicated by scouting and weather until mid‑season when cedar galls stop producing spores. [3]  
+
+**Chemical options:**  
+- Not found in the knowledge base.  
+
+**When to get expert help:**  
+- If rust symptoms appear despite cultural controls and scouting.  
+- If you need specific fungicide recommendations, rates, or timing for your region.  
+- When cedar galls are abundant and difficult to manage manually.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Rusts of Apple (PLPATH-FRU-02) - Ohio State University Extension (USA) https://ohioline.osu.edu/factsheet/plpath-fru-02
+[3] Apple IPM - Cedar Apple Rust - UMass Amherst Extension (USA) https://www.umass.edu/agriculture-food-environment/fruit/fact-sheets/apple-ipm-cedar-apple-rust

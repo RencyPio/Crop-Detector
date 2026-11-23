@@ -1,0 +1,24 @@
+
+Mode: llm  Model: openai/gpt-oss-120b  Grounding: {'unsupported_numbers': [], 'uncited_bullets': []}
+
+**Summary:** Northern leaf blight of maize is caused by fungal pathogens that create long cigar‑shaped lesions on lower leaves and can spread rapidly in wet, cool weather. It can reduce yield if not managed promptly. [1]
+
+**What to do now (cultural / non‑chemical):**
+- Burn or bury infected maize stubble to remove the source of inoculum. [1]
+- Practice crop rotation and reduce surface residue through tillage to lower disease pressure. [3]  
+
+**Chemical options:**
+- Spray mancozeb at 2‑4 g per liter of water. Apply at 35 days after sowing (DAS). [1]  
+- Spray zineb at 2‑4 g per liter of water. Apply at 35 DAS. [1]  
+- Spray propiconazole 25 % EC at 1 ml per liter of water. Apply at 35 DAS and repeat at 50 DAS. [1]  
+
+**When to get expert help:**
+- If lesions continue to expand despite the above sprays.  
+- If you cannot safely burn or bury the stubble.  
+- If you need assistance selecting resistant hybrid varieties.
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+  [1] Maize diseases: Leaf blight (Exserohilum turcicum) - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_2.html
+  [2] Northern Corn Leaf Blight of Corn - Crop Protection Network (USA) https://cropprotectionnetwork.org/encyclopedia/northern-corn-leaf-blight-of-corn

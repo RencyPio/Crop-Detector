@@ -1,0 +1,23 @@
+Orange___Haunglongbing_(Citrus_greening)
+mode: llm
+
+**Summary:** Huanglongbing (citrus greening) is a bacterial disease that stunts growth, causes leaf mottling and produces small, misshapen, low‑quality fruit; it can eventually kill the tree if not managed[1][2].  
+
+**What to do now (cultural / non‑chemical):**  
+- Use only pathogen‑free budwood for all new plantings[1].  
+- Maintain good overall tree health, especially root health, to help trees tolerate the disease[4].  
+- Monitor and control the Asian citrus psyllid (Diaphorina citri) with insecticides as needed[1].  
+
+**Chemical options:**  
+- Apply tetracycline at 500 ppm as a spray, repeating every two weeks[1].  
+
+**When to get expert help:**  
+- If you suspect infection, have leaf or psyllid samples tested by a diagnostic lab (PCR)[4].  
+- If PCR confirms HLB, follow mandatory insecticide treatment and consider removal of the infected tree[4].  
+- Seek advice on sample collection protocols from the local citrus pest detection program[4].
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Citrus diseases: Greening - TNAU Agritech Portal (India) https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html
+[2] Citrus: Huanglongbing (Pest Management Guidelines) - UC Statewide IPM Program (USA) https://ipm.ucanr.edu/agriculture/citrus/huanglongbing/

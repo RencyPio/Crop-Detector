@@ -1,0 +1,24 @@
+Grape___Black_rot
+mode: llm
+
+**Summary:** Black rot is a serious fungal disease of grapes that can cause complete crop loss if not managed early in the season [3].
+
+**What to do now (cultural / non‑chemical):**  
+- Remove and destroy diseased leaves, tendrils, canes, and fruit as soon as they appear [5].  
+- Prune out mummified canes during dormancy and bury them to reduce inoculum [5].  
+- Plant grapes in a sunny site with good air flow; orient rows with prevailing winds to dry foliage quickly [5].  
+- Thin the canopy by removing excess shoots or leaves to lower humidity around the vines [1].
+
+**Chemical options:**  
+- Apply protectant fungicides such as sulfur (Bordeaux mix), copper, or mancozeb shortly before bloom and repeat at the intervals listed on the product label until about 4–6 weeks after bloom [1].  
+
+**When to get expert help:**  
+- If you see many infected leaves or clusters despite cultural measures, contact a local extension officer for a spray program review [2].  
+- If disease develops rapidly in warm, humid conditions and threatens the entire crop, seek professional advice immediately [3].
+
+Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
+
+Sources:
+[1] Grape IPM - Black Rot - UMass Amherst Extension (USA) https://www.umass.edu/agriculture-food-environment/fruit/fact-sheets/grape-ipm-black-rot
+[2] Grape Black Rot (PLPATH-FRU-24) - Ohio State University Extension (USA) https://ohioline.osu.edu/factsheet/plpath-fru-24
+[4] Black Rot of Grape (Fact Sheet 5106) - University of Maine Cooperative Extension (USA) https://extension.umaine.edu/ipm/ipddl/publications/5106e/
