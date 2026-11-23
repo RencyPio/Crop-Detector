@@ -151,6 +151,9 @@ def review_sheet():
     src = Path("reports/rag_all_diseases.csv")
     if not src.exists():
         return 0
+    if (OUT / "advice_review_sheet.csv").exists():
+        print("Review sheet already exists; left unchanged so ratings are not lost.")
+        return sum(1 for _ in open(OUT / "advice_review_sheet.csv", encoding="utf-8")) - 1
     rows = [r for r in csv.DictReader(open(src, encoding="utf-8")) if r["mode"] != "no_knowledge"]
     with open(OUT / "advice_review_sheet.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

@@ -120,7 +120,8 @@ def generate_advice(disease_class: str, hits: list[dict], model: str | None = No
             try:
                 return client.chat.completions.create(**kwargs)
             except Exception as e:
-                if wait is None or "429" not in str(e) and "rate limit" not in str(e).lower():
+                daily = "tokens per day" in str(e).lower()
+                if wait is None or daily or "429" not in str(e) and "rate limit" not in str(e).lower():
                     raise
                 print(f"  Groq rate limit, retrying in {wait}s")
                 time.sleep(wait)
@@ -133,9 +134,9 @@ def generate_advice(disease_class: str, hits: list[dict], model: str | None = No
             if not text:
                 raise RuntimeError("empty answer from the LLM")
         except Exception as e:
-            print(f"  LLM call failed ({e}); using extractive fallback")
+            print(f"  LLM call failed ({str(e)[:160]}); using extractive fallback")
             return {"advice": _extractive(disease_class, hits) + f"\n\n{DISCLAIMER}",
-                    "sources": sources_from_hits(hits), "mode": "extractive_fallback"}
+                    "sources": sources_from_hits(hits), "mode": "extractive_fallback", "llm_error": str(e)[:300]}
         grounding = check_grounding(text, hits)
         if not grounding["unsupported_numbers"]:
             return {"advice": text + f"\n\n{DISCLAIMER}", "sources": sources_from_hits(hits), "mode": "llm",

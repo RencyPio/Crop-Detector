@@ -1,20 +1,13 @@
 Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot
-mode: llm
+mode: extractive_fallback
 
-**Summary:** Gray leaf spot of corn, caused by *Cercospora* fungus, can cause serious yield loss if weather is warm and humid. It appears on lower leaves before tasseling and can kill whole leaves. [1]
+**What the agricultural guides say about Corn (maize) - Cercospora leaf spot Gray leaf spot:**
 
-**What to do now (cultural / non‑chemical):**  
-- Plant resistant hybrids or inbreds when possible. [1]  
-- Rotate corn with non‑cereal crops to break the disease cycle. [1]  
-- Practice tillage to destroy corn residue that harbors the fungus. [1]  
+[1] Gray Leaf Spot of Corn Gray leaf spot, caused by the fungus Cercospora zeae-maydis, occurs virtually every growing season. If conditions favor disease development, economic losses can occur. Symptoms first appear on lower leaves about two to three weeks before tasseling. The leaf lesions are long (up to 2 inches), narrow, rectangular, and light tan colored. Later, the lesions can turn gray. They are usually delimited by leaf veins but can join together and kill entire leaves. Rectangular gray leaf spot lesions delimited by leaf veins. Image: A. Sisson Numerous gray leaf spot lesions joining to...
 
-**Chemical options:**  
-- Not found in the knowledge base.  
+[2] a copy of the complaint form, call (866) 632-9992. Submit your completed form or letter to USDA by: (1) mail: U.S. Department of Agriculture, Office of the Assistant Secretary for Civil Rights, 1400 Independence Avenue, SW, Mail Stop 9410, Washington, D.C. 20250-9410; (2) fax: (202) 690-7442; or (3) email: program.intake@usda.gov. This work is supported by the Crop Protection and Pest Management Extension Implementation Program from the U.S. Department of Agriculture’s National Institute of Food and Agriculture. Any opinions, findings, conclusions, or recommendations expressed in this publicat...
 
-**When to get expert help:**  
-- Disease spreads rapidly despite cultural measures.  
-- You need a fungicide but have no label information.  
-- Symptoms are severe and affecting yield.
+[3] susceptibility and environmental conditions. Resistant hybrids and inbreds are available. Crop rotation and tillage reduce survival of the fungus. Foliar fungicides labeled for gray leaf spot are available. Gallery: Click on thumbnails to view the full image. Gallery Images: D. Mueller, K. Wise, G. Munkvold, A. Robertson, and A. Sisson This publication was developed by the Crop Protection Network, a multi-state and international collaboration of university/provincial extension specialists and public/ private professionals that provides unbiased, research-based information to farmers and agricu...
 
 Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
 

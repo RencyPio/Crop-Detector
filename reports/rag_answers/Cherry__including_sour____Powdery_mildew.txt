@@ -1,24 +1,13 @@
 Cherry_(including_sour)___Powdery_mildew
-mode: llm
+mode: extractive_fallback
 
-**Summary:** Powdery mildew appears as white, web‑like growth on cherry leaves, shoots and fruit and can cause serious crop loss, especially on new growth in warm, humid conditions [1].
+**What the agricultural guides say about Cherry (including sour) - Powdery mildew:**
 
-**What to do now (cultural / non‑chemical):**  
-- Prune out and destroy infected shoots, water sprouts and any buds showing mildew [1].  
-- Spray as soon as petal fall occurs and repeat 2–3 weeks later if mildew is still present [1].  
-- Avoid using the same fungicide or those with similar chemistry more than twice per year to limit resistance [1].  
+[1] On This Page Comments on the Disease Powdery mildew is marked by superficial, white, weblike growth on leaves, shoots, or fruit. Comments on the Disease The fungus overwinters in buds on twigs and as chasmothecia, which are spore-containing structures, on the bark of twigs and branches. Secondary spores produced in spring spread the fungus to new growth. Infections can be severe in commercial orchards during years of low rainfall, high humidity, and warm temperatures (70° to 80°F). The disease is particularly severe on new growth, such as shoots of inner scaffolds, and can infect fruit as well...
 
-**Chemical options:**  
-- Apply wettable sulfur at 10–20 lb/acre; re‑enter after 24 h and do not spray within 3 weeks of oil applications [4].  
-- Use potassium bicarbonate (Kaligreen) at 2.5–3 lb/acre; re‑enter after 4 h [4].  
-- Apply azoxystrobin/difenconazole (Quadris Top) at 12–14 fl oz/acre; REI 12 h, PHI 0 days; rotate with a different FRAC group after use [3].  
-- Apply azoxystrobin/propiconazole (QuiltXcel) at 14 fl oz/acre; REI 12 h, PHI 0 days; rotate with a different FRAC group after use [3].  
-- Apply tebuconazole/trifloxystrobin (Adament 50WG) at 4–8 fl oz/acre; REI 120 h (5 days), PHI 1 day; rotate with a different FRAC group after use [3].  
+[2] UC IPM Pest Management Guidelines: Cherry UC ANR Publication 3440 J.E. Adaskaveg, Plant Pathology, UC Riverside J.L. Caprile (emeritus), UC Cooperative Extension Contra Costa County Acknowledgement for Contributions to Plant Diseases W.D. Gubler, Plant Pathology, UC Davis B.L. Teviotdale (emeritus), Kearney Agricultural Research and Extension Center, Parlier Text Updated: 09/15 Treatment Table Updated: 09/15...
 
-**When to get expert help:**  
-- If mildew spreads rapidly despite two sprays.  
-- If fruit shows heavy infection that could affect market quality.  
-- If you are unsure about mixing or timing of fungicides.
+[3] with a history of mildew, select fungicides that are active against brown rot and Botrytis, as well as powdery mildew, during bloom and immediately before harvest, being careful to note the preharvest interval. Common name | Amount per acre | REI‡ | PHI‡ (Example trade name) | (hours) | (days) Not all registered pesticides are listed. The following are ranked with the pesticides having the greatest IPM value listed first—the most effective and least likely to cause resistance are at the top of the table. When choosing a pesticide, consider information relating to the pesticide's properties and...
 
 Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
 

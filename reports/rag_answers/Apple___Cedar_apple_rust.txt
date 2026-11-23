@@ -1,22 +1,13 @@
 Apple___Cedar_apple_rust
-mode: llm
+mode: extractive_fallback
 
-**Summary:** Cedar‑apple rust is a fungal disease that needs both apple trees and nearby eastern red cedars to complete its cycle; it causes orange‑yellow leaf lesions and can reduce fruit marketability, but it is manageable with cultural practices and, if needed, fungicide programs [1][4].
+**What the agricultural guides say about Apple - Cedar apple rust:**
 
-**What to do now (cultural / non‑chemical):**
-- Plant resistant apple cultivars such as ‘Baldwin’, ‘Empire’, ‘Enterprise’, ‘Gala Supreme’, ‘Liberty’, ‘Regent’, ‘Spartan’, ‘Viking’, etc. [3]  
-- Remove or destroy wild or unwanted eastern red cedars that have rust galls near the orchard. [2][3]  
-- Prune apple trees to open the canopy for better light, air flow, and spray penetration. [3]  
-- Scout for cedar galls in May‑June and for leaf lesions on apples in mid‑summer; monitor weather for wet periods that favor spore release. [3][5]  
-- Apply protectant fungicides at bloom if rust was seen the previous year and weather is warm and wet; make follow‑up sprays as indicated by scouting and weather until mid‑season when cedar galls stop producing spores. [3]  
+[1] Rusts of Apple Date: Michael A. Ellis, Department of Plant Pathology Three rust diseases occur on apple and crabapple in Ohio. All are caused by different species of the fungus Gymnosporangium and have various junipers and red cedars (juniperus species) as an alternate host. Apples are generally most susceptible to infection by the rust fungi during the period from early bloom until about 30 days after bloom. Cedar-Apple Rust on Apple On leaves, pale yellow spots appear on the upper surface during May or June (Figure 1). Spots are up to ¼ inch in diameter, turn orange with time, and often have...
 
-**Chemical options:**  
-- Not found in the knowledge base.  
+[2] following year, but does not produce spore horns with teliospores until the second spring. The complete disease cycle requires almost two years. Grow resistant or immune apples, crabapples and junipers. When buying trees, check with the nursery about rust resistance. Destroy nearby, worthless or wild junipers infected with rust galls. Where rusts are a problem, follow a recommended fungicide spray program. For the most current fungicide recommendations, commercial growers are referred to Bulletin 506, Midwest Fruit Pest Management Guide. Backyard growers are referred to Bulletin 780, Controlli...
 
-**When to get expert help:**  
-- If rust symptoms appear despite cultural controls and scouting.  
-- If you need specific fungicide recommendations, rates, or timing for your region.  
-- When cedar galls are abundant and difficult to manage manually.
+[3] The fungus requires both the eastern red cedar and apple in order to complete its life cycle. Planting Resistant Cultivars: Apple cultivars with resistance to cedar-apple rust include: 'Baldwin', 'Delicious' (red), 'Empire', 'Enterprise', 'Gala Supreme', 'Jerseymac', 'Keepsake', 'Liberty', 'McIntosh', 'Milton', 'Niagara', 'Paulared', 'Redfree', 'Regent', 'Sansa', 'Spartan', 'Sundance', 'Viking', and 'Zestar!'. Apple cultivars that are very susceptible to cedar-apple rust include: 'Ambrosia', 'Braeburn', 'Cameo', 'Chinook', 'Crimson Crisp', 'Fuji', 'Gala', 'Ginger Gold', 'Golden Delicious', 'Jo...
 
 Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
 

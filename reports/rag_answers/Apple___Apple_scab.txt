@@ -1,25 +1,25 @@
 Apple___Apple_scab
 mode: llm
 
-**Summary:** Apple scab is caused by *Venturia inaequalis* and can severely distort leaves and fruit, reducing yield if not managed. [1]
+**Summary:** Apple scab is caused by *Venturia inaequalis* and can severely distort leaves and fruit, reducing yield. It is serious if not managed early. [1]
 
 **What to do now (cultural / non‑chemical):**  
-- Remove and destroy fallen leaves and pruned material during winter to break the disease cycle. [1]  
-- Apply 5 % urea to the orchard before leaf fall in autumn to hasten leaf decomposition. [1]  
-- Apply 2 % urea before bud break to further speed leaf breakdown. [1]  
+- Remove and destroy fallen leaves and pruned material during winter to break the disease cycle. [1]  
+- Apply 5 % urea before leaf fall in autumn to hasten leaf decomposition. [1]  
+- Apply 2 % urea before bud break to further speed leaf breakdown. [1]  
 
 **Chemical options:**  
-- Spray Tridemorph 0.1 % before flowering. [1]  
-- Spray Mancozeb 0.25 % at the bearing stage. [1]  
-- At pink bud (≈15 days after first spray), spray Captan 250 g / 100 L or Mancozeb 300 g / 100 L. [1][2]  
-- At petal fall, spray Carbendazim 50 g / 100 L. [1][2]  
-- Ten days later, spray Captan 200 g / 100 L or Mancozeb 300 g / 100 L. [1][2]  
-- Fourteen days after fruit set, spray Captafol 150 g / 100 L with a sticker (teepol or triton 6 ml per 10 L spray). [1][2]  
+- Spray Tridemorph 0.1 % before flowering. [1]  
+- Spray Mancozeb 0.25 % at the bearing stage. [1]  
+- At pink bud (≈15 days after first spray): apply Captan 250 g or Mancozeb 300 g per 100 L water. [1]  
+- At petal fall: apply Carbendazim 50 g per 100 L water. [1]  
+- Ten days after petal fall: apply Captan 200 g or Mancozeb 300 g per 100 L water. [1]  
+- Fourteen days after fruit set: apply Captafol 150 g per 100 L water, adding stickers (teepol or triton) 6 ml per 10 L spray fluid. [1]  
 
 **When to get expert help:**  
-- If disease symptoms persist despite following the above schedule. [1]  
-- If you notice severe leaf distortion or heavy fruit infection early in the season. [1]  
-- If you need assistance selecting appropriate stickers or mixing rates. [1]
+- If disease symptoms persist despite the above sprays.  
+- If you cannot obtain the listed fungicides locally.  
+- If weather conditions (heavy rain, high humidity) favor rapid disease spread and you need timing advice.
 
 Always follow the pesticide label and consult your local agriculture officer before applying any chemical.
 

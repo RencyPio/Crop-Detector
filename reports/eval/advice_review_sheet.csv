@@ -1,26 +1,27 @@
-disease_class,answer_file,mode,sources,regions,grounded (Y/N),correct (Y/N),cited (Y/N),safe (Y/N),invented or reworded claims,notes
-Apple___Apple_scab,reports/rag_answers/Apple___Apple_scab.txt,llm,2,India+USA,,,,,,
-Apple___Black_rot,reports/rag_answers/Apple___Black_rot.txt,llm,2,USA,,,,,,
-Apple___Cedar_apple_rust,reports/rag_answers/Apple___Cedar_apple_rust.txt,llm,2,USA,,,,,,
-Cherry_(including_sour)___Powdery_mildew,reports/rag_answers/Cherry__including_sour____Powdery_mildew.txt,llm,1,USA,,,,,,
-Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,reports/rag_answers/Corn__maize____Cercospora_leaf_spot_Gray_leaf_spot.txt,llm,1,USA,,,,,,
-Corn_(maize)___Common_rust_,reports/rag_answers/Corn__maize____Common_rust_.txt,llm,2,India+USA,,,,,,
-Corn_(maize)___Northern_Leaf_Blight,reports/rag_answers/Corn__maize____Northern_Leaf_Blight.txt,llm,2,India+USA,,,,,,
-Grape___Black_rot,reports/rag_answers/Grape___Black_rot.txt,llm,3,USA,,,,,,
-Grape___Esca_(Black_Measles),reports/rag_answers/Grape___Esca__Black_Measles_.txt,llm,1,USA,,,,,,
-Orange___Haunglongbing_(Citrus_greening),reports/rag_answers/Orange___Haunglongbing__Citrus_greening_.txt,llm,2,India+USA,,,,,,
-Peach___Bacterial_spot,reports/rag_answers/Peach___Bacterial_spot.txt,llm,1,USA,,,,,,
-"Pepper,_bell___Bacterial_spot",reports/rag_answers/Pepper__bell___Bacterial_spot.txt,llm,1,India,,,,,,
-Potato___Early_blight,reports/rag_answers/Potato___Early_blight.txt,llm,2,India+USA,,,,,,
-Potato___Late_blight,reports/rag_answers/Potato___Late_blight.txt,llm,2,India+USA,,,,,,
-Squash___Powdery_mildew,reports/rag_answers/Squash___Powdery_mildew.txt,llm,1,USA,,,,,,
-Strawberry___Leaf_scorch,reports/rag_answers/Strawberry___Leaf_scorch.txt,llm,2,USA,,,,,,
-Tomato___Bacterial_spot,reports/rag_answers/Tomato___Bacterial_spot.txt,llm,2,India+USA,,,,,,
-Tomato___Early_blight,reports/rag_answers/Tomato___Early_blight.txt,llm,3,India+USA,,,,,,
-Tomato___Late_blight,reports/rag_answers/Tomato___Late_blight.txt,llm,3,India+USA,,,,,,
-Tomato___Leaf_Mold,reports/rag_answers/Tomato___Leaf_Mold.txt,extractive_fallback,1,USA,,,,,,
-Tomato___Septoria_leaf_spot,reports/rag_answers/Tomato___Septoria_leaf_spot.txt,llm,1,India,,,,,,
-Tomato___Spider_mites Two-spotted_spider_mite,reports/rag_answers/Tomato___Spider_mites_Two-spotted_spider_mite.txt,llm,1,India,,,,,,
-Tomato___Target_Spot,reports/rag_answers/Tomato___Target_Spot.txt,extractive_fallback,1,International,,,,,,
-Tomato___Tomato_Yellow_Leaf_Curl_Virus,reports/rag_answers/Tomato___Tomato_Yellow_Leaf_Curl_Virus.txt,extractive_fallback,2,India+USA,,,,,,
-Tomato___Tomato_mosaic_virus,reports/rag_answers/Tomato___Tomato_mosaic_virus.txt,extractive_fallback,1,USA,,,,,,
+disease_class,answer_file,mode,grounded,correct,cited,safe,invented or reworded claims,notes
+Apple___Apple_scab,reports/rag_answers/Apple___Apple_scab.txt,llm,Y,Y,Y,Check,,All TNAU spray stages and doses match the source; first spray stage omitted. Captafol and Captan are named by the source: check current registration before use.
+Apple___Black_rot,reports/rag_answers/Apple___Black_rot.txt,llm,Partial,Y,Y,Partial,"""Sanitize tools"" is not in any passage.","Benlate (benomyl) is named by the 2018 WVU source but its maker withdrew it in 2001, so the advice includes an unavailable product. US brand names only."
+Apple___Cedar_apple_rust,reports/rag_answers/Apple___Cedar_apple_rust.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Cherry_(including_sour)___Powdery_mildew,reports/rag_answers/Cherry__including_sour____Powdery_mildew.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,reports/rag_answers/Corn__maize____Cercospora_leaf_spot_Gray_leaf_spot.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Corn_(maize)___Common_rust_,reports/rag_answers/Corn__maize____Common_rust_.txt,llm,Y,Y,Y,Y,,"Matches TNAU exactly, including the source's own ""mancozeb 2 ml/l""."
+Corn_(maize)___Northern_Leaf_Blight,reports/rag_answers/Corn__maize____Northern_Leaf_Blight.txt,llm,Y,Y,Y,Y,,"TNAU doses and timing exact. Omits resistant hybrids, which the CPN passage recommends."
+Grape___Black_rot,reports/rag_answers/Grape___Black_rot.txt,llm,Partial,Partial,Y,Y,"""Prune out mummified canes"" mixes two separate source points (prune diseased canes; remove and bury mummified fruit).","Misses the source's key point that removing mummies has the largest impact. Repeats the source's wording ""sulfur (Bordeaux mix)"", which is technically wrong (Bordeaux is copper-based)."
+Grape___Esca_(Black_Measles),reports/rag_answers/Grape___Esca__Black_Measles_.txt,llm,N,Partial,Partial,Y,"""Seal pruning wounds"", ""clear fallen leaves"" and ""avoid excessive irrigation, improve airflow"" are not in the passages but are cited as [1].",Correctly says no chemical cure is in the knowledge base. Three of four cultural bullets are invented.
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot),reports/rag_answers/Grape___Leaf_blight__Isariopsis_Leaf_Spot_.txt,no_knowledge,n/a,n/a,n/a,n/a,,"No source document yet, so the app tells the farmer to consult the agriculture officer."
+Orange___Haunglongbing_(Citrus_greening),reports/rag_answers/Orange___Haunglongbing__Citrus_greening_.txt,llm,Y,Y,Y,Partial,,"Tetracycline 500 ppm fortnightly is from TNAU, but antibiotic use on crops is restricted in many places: check before use. ""Mandatory insecticide treatment and tree removal"" is a California rule shown as general advice."
+Peach___Bacterial_spot,reports/rag_answers/Peach___Bacterial_spot.txt,llm,Y,Y,Y,Y,,"Faithful; correctly says no effective spray program. Resistant variety list is US cultivars, of limited use in India."
+"Pepper,_bell___Bacterial_spot",reports/rag_answers/Pepper__bell___Bacterial_spot.txt,llm,Y,Y,Y,Partial,,"From the TNAU chilli page (same species, Capsicum annuum). Includes a 0.1% mercuric chloride seed treatment, which is highly toxic: check whether it is permitted."
+Potato___Early_blight,reports/rag_answers/Potato___Early_blight.txt,llm,Y,Y,Y,Y,,"Matches TNAU exactly (Zineb or Captan 0.2% every 15-20 days, Kufri Sindhuri)."
+Potato___Late_blight,reports/rag_answers/Potato___Late_blight.txt,llm,Partial,Partial,Partial,Partial,"""When tuber loss exceeds 10%"" is invented; the 10 only appears in the source as a temperature, so the number check passed by coincidence. ""Improve drainage, avoid overhead irrigation"" is not in TNAU but is cited [2].","Varieties, sprays and harvest advice match TNAU."
+Squash___Powdery_mildew,reports/rag_answers/Squash___Powdery_mildew.txt,llm,Partial,Y,Y,Y,"""Space plants to improve air circulation"" is not in the passages.",Products and per-acre rates copied correctly from UC IPM and labelled USA; it picked the three lowest-ranked products in the IPM table.
+Strawberry___Leaf_scorch,reports/rag_answers/Strawberry___Leaf_scorch.txt,llm,Y,Partial,Y,Y,,"Cultural advice faithful, but it says no chemical option was found although passage [1] mentions thiophanate-methyl from bloom at 2-week intervals (an omission)."
+Tomato___Bacterial_spot,reports/rag_answers/Tomato___Bacterial_spot.txt,llm,Y,Y,Y,Check,,Streptocycline 40-100 ppm from TNAU and copper hydroxide from UC IPM (labelled USA) are both correct. Streptocycline is an antibiotic: check current registration.
+Tomato___Early_blight,reports/rag_answers/Tomato___Early_blight.txt,llm,Partial,Y,Partial,Y,"""Keep the field well-drained"" is not in passage [4] that it cites.",All nine TNAU products and doses exact; 2-3 year rotation correctly from NC State.
+Tomato___Late_blight,reports/rag_answers/Tomato___Late_blight.txt,llm,Y,Y,Y,Y,,"TNAU doses exact, including the source's odd ""Mancozeb 35% SC @ 1000 g/ac"". ""Drip or furrow"" is a small addition to ""avoid sprinkler irrigation""."
+Tomato___Leaf_Mold,reports/rag_answers/Tomato___Leaf_Mold.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Tomato___Septoria_leaf_spot,reports/rag_answers/Tomato___Septoria_leaf_spot.txt,llm,Partial,Y,Partial,Y,"""Crop rotation"" and ""good air flow, avoid overhead irrigation"" are not in the TNAU passage but are cited [1].",Seed treatment and fungicide dose exact.
+Tomato___Spider_mites Two-spotted_spider_mite,reports/rag_answers/Tomato___Spider_mites_Two-spotted_spider_mite.txt,llm,N,Y,Partial,Y,"All three cultural bullets (monitoring, removing leaves, watering and avoiding excess nitrogen) are invented and cited [1]; the source only gives a sulphur spray.",Wettable sulphur 2 g/l is correct.
+Tomato___Target_Spot,reports/rag_answers/Tomato___Target_Spot.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,reports/rag_answers/Tomato___Tomato_Yellow_Leaf_Curl_Virus.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."
+Tomato___Tomato_mosaic_virus,reports/rag_answers/Tomato___Tomato_mosaic_virus.txt,extractive_fallback,not rated,not rated,not rated,not rated,,"Fallback answer (Groq daily limit): shows cited source passages verbatim, so there is no generated text to rate. Re-run scripts.rag_all_diseases and review."

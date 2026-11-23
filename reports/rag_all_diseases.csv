@@ -1,9 +1,9 @@
 disease_class,mode,attempts,n_sources,regions,uncited_bullets,rejected_numbers,rejected_lines
 Apple___Apple_scab,llm,1,2,India+USA,0,,
 Apple___Black_rot,llm,1,2,USA,0,,
-Apple___Cedar_apple_rust,llm,1,2,USA,1,,
-Cherry_(including_sour)___Powdery_mildew,llm,1,1,USA,0,,
-Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,llm,1,1,USA,1,,
+Apple___Cedar_apple_rust,extractive_fallback,,2,USA,,,
+Cherry_(including_sour)___Powdery_mildew,extractive_fallback,,1,USA,,,
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,extractive_fallback,,1,USA,,,
 Corn_(maize)___Common_rust_,llm,1,2,India+USA,0,,
 Corn_(maize)___Northern_Leaf_Blight,llm,1,2,India+USA,0,,
 Grape___Black_rot,llm,1,3,USA,0,,
