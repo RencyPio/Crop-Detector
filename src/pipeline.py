@@ -8,6 +8,8 @@ from src.automation.notify import notify
 @lru_cache(maxsize=1)
 def _components():
     from src.dl.predict import Predictor
+    from src.rag.vector_store import ensure_knowledge_base
+    ensure_knowledge_base()
     predictor = Predictor()
     return predictor, SprayDecisionAgent(class_names=predictor.class_names)
 

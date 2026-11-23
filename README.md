@@ -10,11 +10,15 @@ every detection. Full spec: `Project_Spec_From_Scratch.md`.
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
-The trained model is **not** in Git. Put these two files in `models/`:
-`crop_disease_cnn_ft_final.keras` and `class_indices.json`.
+`requirements.txt` is the slim runtime (TFLite model, ONNX embeddings, no TensorFlow or PyTorch) used
+by the hosted app; `requirements-dev.txt` adds TensorFlow and the test tools.
+
+The trained model is **not** in Git. The app needs `models/crop_disease_cnn.tflite` (9.5 MB, converted
+from `crop_disease_cnn_ft_final.keras`, identical predictions) or downloads it from the Hugging Face repo
+named in `MODEL_REPO`. `class_indices.json` is in Git.
 
 ## Start the app (one command)
 
@@ -85,7 +89,8 @@ streamlit run frontend/app.py             # terminal 2: web app at http://localh
 
 Docker (one container, API inside, Streamlit on port 7860):
 `docker build -f deployment/Dockerfile -t cropdetector .` then `docker run -p 7860:7860 --env-file .env cropdetector`.
-Hosting steps: `deployment/HOSTING.md`.
+Free hosting (used): Streamlit Community Cloud, steps in `deployment/STREAMLIT_CLOUD.md`.
+Docker hosting (Hugging Face Docker Spaces are paid): `deployment/HOSTING.md`.
 
 ## Layout
 

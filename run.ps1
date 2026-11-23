@@ -16,11 +16,11 @@ $py = Join-Path $PSScriptRoot "venv\Scripts\python.exe"
 if (-not (Test-Path $py)) {
     Write-Host "Setup needed: no venv found. Run these once:" -ForegroundColor Yellow
     Write-Host "  python -m venv venv"
-    Write-Host "  .\venv\Scripts\python.exe -m pip install -r requirements.txt"
+    Write-Host "  .\venv\Scripts\python.exe -m pip install -r requirements-dev.txt"
     exit 1
 }
-if (-not (Test-Path "models\crop_disease_cnn_ft_final.keras")) {
-    Write-Host "The trained model is missing. Copy crop_disease_cnn_ft_final.keras into the models folder." -ForegroundColor Yellow
+if (-not ((Test-Path "models\crop_disease_cnn.tflite") -or (Test-Path "models\crop_disease_cnn_ft_final.keras"))) {
+    Write-Host "The trained model is missing. Copy crop_disease_cnn.tflite into the models folder." -ForegroundColor Yellow
     exit 1
 }
 if (-not (Test-Path "data\chroma_db")) {

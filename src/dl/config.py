@@ -4,6 +4,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 MODELS_DIR = PROJECT_ROOT / "models"
 MODEL_PATH = MODELS_DIR / "crop_disease_cnn_ft_final.keras"
+TFLITE_PATH = MODELS_DIR / "crop_disease_cnn.tflite"
 CLASS_INDICES_PATH = MODELS_DIR / "class_indices.json"
 
 IMG_SIZE = (224, 224)

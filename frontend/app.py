@@ -1,11 +1,9 @@
-import os
 import time
 
 import pandas as pd
-import requests
 import streamlit as st
 
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+import app_backend as backend
 
 st.set_page_config(page_title="Crop Doctor", page_icon="🌱", layout="centered")
 
@@ -39,16 +37,19 @@ CROP_ICONS = {"Apple": "🍎", "Blueberry": "🫐", "Cherry (including sour)": "
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def get_crops():
-    return requests.get(f"{API_URL}/crops", timeout=10).json()
+    return backend.crops()
+
+
+@st.cache_resource(show_spinner=False)
+def warm_up():
+    backend.warm_up()
+    return True
 
 
 def wait_for_api(seconds: int = 30) -> bool:
     for _ in range(seconds):
-        try:
-            if requests.get(f"{API_URL}/health", timeout=2).ok:
-                return True
-        except requests.RequestException:
-            pass
+        if backend.health():
+            return True
         time.sleep(1)
     return False
 
@@ -67,17 +68,13 @@ def sureness(p: float) -> str:
     return "very sure" if p >= 0.9 else "fairly sure" if p >= 0.7 else "not sure"
 
 
-def friendly_error(r: requests.Response) -> str:
-    detail = ""
-    try:
-        detail = r.json().get("detail", "")
-    except ValueError:
-        pass
-    if r.status_code == 413:
+def friendly_error(status: int, body: dict) -> str:
+    detail = body.get("detail", "") if isinstance(body, dict) else ""
+    if status == 413:
         return "That photo is too large. Please take a new photo or choose a smaller one (under 10 MB)."
-    if r.status_code in (400, 415):
+    if status in (400, 415):
         return f"I couldn't read that photo. Please use a normal JPG or PNG picture of a leaf. ({detail})"
-    return f"Something went wrong ({r.status_code}). Please try again. {detail}"
+    return f"Something went wrong ({status}). Please try again. {detail}"
 
 
 def show_result(res: dict):
@@ -156,10 +153,7 @@ def show_result(res: dict):
 
 def render_history():
     st.header("📒 History")
-    try:
-        rows = requests.get(f"{API_URL}/detections", params={"limit": 200}, timeout=10).json()
-    except requests.RequestException:
-        rows = []
+    rows = backend.detections(200)
     if not rows:
         st.info("No plants checked yet. Your checks will appear here.")
     else:
@@ -189,9 +183,12 @@ with tab_check:
     st.title("🌱 Crop Doctor")
     st.write("Find out what's wrong with your plant and what to do, in four quick steps.")
 
+    if backend.MODE == "direct":
+        with st.spinner("Getting ready. The first start downloads the model and the guides (about 2 minutes)..."):
+            warm_up()
     try:
         crops = get_crops()
-    except requests.RequestException:
+    except backend.Unreachable:
         with st.spinner("Starting up the diagnosis service..."):
             ok = wait_for_api()
         if not ok:
@@ -257,21 +254,20 @@ with tab_check:
         with st.status("Checking your plant...", expanded=True) as status:
             st.write("🔬 Looking at the leaf...")
             try:
-                r = requests.post(f"{API_URL}/predict", timeout=120, data=data,
-                                  files={"image": (getattr(photo, "name", None) or "photo.jpg",
-                                                   photo.getvalue(), photo.type or "image/jpeg")})
-            except requests.RequestException:
+                code, body = backend.predict(data, getattr(photo, "name", None) or "photo.jpg",
+                                             photo.getvalue(), photo.type or "image/jpeg")
+            except backend.Unreachable:
                 status.update(label="Couldn't reach the diagnosis service", state="error")
                 st.error("The diagnosis service didn't answer. Check that run.ps1 is still running, then try again.")
                 st.stop()
-            if r.status_code != 200:
+            if code != 200:
                 status.update(label="Problem with the photo", state="error")
-                st.error(friendly_error(r))
+                st.error(friendly_error(code, body))
                 st.stop()
             st.write("📚 Finding advice from agricultural guides...")
             st.write("🌦️ Checking the weather...")
             status.update(label="Done!", state="complete", expanded=False)
-        st.session_state["result"] = r.json()
+        st.session_state["result"] = body
         st.session_state["photo_bytes"] = photo.getvalue()
         st.rerun()
 

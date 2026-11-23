@@ -1,16 +1,23 @@
+import sys
 from functools import lru_cache
 
-from src.rag.config import CHROMA_DIR, COLLECTION, EMBED_MODEL
+try:
+    __import__("pysqlite3")
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass
+
+from src.rag.config import CHROMA_DIR, COLLECTION
 
 
 @lru_cache(maxsize=1)
 def get_embedder():
-    from sentence_transformers import SentenceTransformer
-    return SentenceTransformer(EMBED_MODEL)
+    from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
+    return DefaultEmbeddingFunction()
 
 
 def embed(texts: list[str]) -> list[list[float]]:
-    return get_embedder().encode(texts, normalize_embeddings=True, show_progress_bar=False).tolist()
+    return [list(map(float, v)) for v in get_embedder()(texts)]
 
 
 @lru_cache(maxsize=1)
@@ -49,6 +56,15 @@ def build_index():
     print(f"Indexed {len(chunks)} chunks into '{COLLECTION}' at {CHROMA_DIR}")
     for d, n in sorted(per_disease.items()):
         print(f"  {n:3d}  {d}")
+
+
+def ensure_knowledge_base():
+    if get_collection().count() > 0:
+        return False
+    from src.rag.ingest import main as ingest
+    ingest()
+    build_index()
+    return True
 
 
 if __name__ == "__main__":
