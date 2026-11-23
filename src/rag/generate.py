@@ -20,9 +20,13 @@ Rules you must follow:
 3. Never state a chemical name, dose or interval that is not written in a passage.
 4. End EVERY bullet and sentence in Summary, What to do now and Chemical options with its passage
    number in square brackets, e.g. [2]. Do not add advice that no passage gives.
-5. Prefer passages marked region=India for product and dose advice. If you use a dose from a
+5. In "What to do now", list ONLY practices that a passage explicitly states, close to its own
+   words. Never add general good-practice tips (spacing, drainage, watering, rotation, monitoring,
+   sanitation) unless that passage says them. One or two true bullets are better than five guesses.
+6. Do not invent thresholds, percentages or numbers of any kind, including in "When to get expert help".
+7. Prefer passages marked region=India for product and dose advice. If you use a dose from a
    non-Indian source, say which country it is from.
-6. Write in short, simple sentences a farmer can follow.
+8. Write in short, simple sentences a farmer can follow.
 
 Answer in exactly this format:
 **Summary:** 1-2 sentences on what the disease is and how serious it is.
@@ -70,11 +74,24 @@ def _numbers(text: str) -> list[str]:
     return NUMBER.findall(text)
 
 
+UNIT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(%|ppm|kg|ml|g)(?![a-z])", re.IGNORECASE)
+
+
+def _unit_pairs(text: str) -> set[str]:
+    text = CITATION.sub("", text).replace(",", "")
+    text = re.sub(r"\.?\s*per\s*cent\b", "%", text, flags=re.IGNORECASE)
+    return {f"{n}{u.lower()}" for n, u in UNIT_RE.findall(text)}
+
+
 def check_grounding(answer: str, hits: list[dict]) -> dict:
     answer = normalize_citations(answer)
-    context_numbers = set(_numbers(" ".join(h["text"] for h in hits)))
-    unsupported = sorted({n for n in _numbers(answer) if n not in context_numbers})
-    flagged = [ln.strip() for ln in answer.splitlines() if set(_numbers(ln)) & set(unsupported)]
+    context = " ".join(h["text"] for h in hits)
+    context_numbers = set(_numbers(context))
+    unsupported = {n for n in _numbers(answer) if n not in context_numbers}
+    unsupported |= _unit_pairs(answer) - _unit_pairs(context)
+    unsupported = sorted(unsupported)
+    flagged_pairs = set(unsupported)
+    flagged = [ln.strip() for ln in answer.splitlines() if (set(_numbers(ln)) | _unit_pairs(ln)) & flagged_pairs]
 
     uncited, in_expert = [], False
     for line in answer.splitlines():
@@ -83,6 +100,51 @@ def check_grounding(answer: str, hits: list[dict]) -> dict:
         elif line.lstrip().startswith(("- ", "* ", "• ")) and not in_expert and not CITATION.search(line):
             uncited.append(line.strip())
     return {"unsupported_numbers": unsupported, "flagged_lines": flagged, "uncited_bullets": uncited}
+
+
+SUPPORT_MIN = 0.30
+STOPWORDS = set("""with that this from have when will your into such than then them they their there these those
+also only each more most must should would could about after before while where which what other some very just like
+apply spray plants plant leaves leaf disease diseases field fields crop crops control reduce help used using use avoid
+keep make sure good well early time first remove destroy water litre liter days sowing above repeat every week weeks
+need""".split())
+
+
+def _stem(w: str) -> str:
+    for suf in ("ing", "ed", "es", "s"):
+        if w.endswith(suf) and len(w) - len(suf) >= 4:
+            return w[: -len(suf)]
+    return w
+
+
+def _content_words(text: str) -> set[str]:
+    return {_stem(w) for w in re.findall(r"[a-z]{4,}", text.lower()) if w not in STOPWORDS}
+
+
+def remove_unsupported(answer: str, hits: list[dict]) -> tuple[str, list[dict]]:
+    out, removed, section = [], [], ""
+    for line in answer.splitlines():
+        s = line.strip()
+        if s.startswith("**"):
+            low = s.lower()
+            section = ("cultural" if "what to do" in low else "chemical" if "chemical" in low
+                       else "expert" if "expert" in low else "other")
+        bullet = s.startswith(("- ", "* ", "• "))
+        has_num = bool(re.search(r"\d", CITATION.sub("", s)))
+        cites = [int(c) for c in re.findall(r"\[(\d+)\]", s)]
+        not_found = "not found in the knowledge base" in s.lower()
+        if bullet and cites and not not_found and (section == "cultural" or (section == "expert" and has_num)):
+            ctx = set().union(*(_content_words(hits[c - 1]["text"]) for c in cites if 1 <= c <= len(hits)))
+            words = _content_words(CITATION.sub("", s))
+            support = len(words & ctx) / max(len(words), 1)
+            if support < SUPPORT_MIN:
+                removed.append({"line": s, "support": round(support, 2)})
+                continue
+        out.append(line)
+    text = "\n".join(out)
+    text = re.sub(r"(\*\*What to do now[^\n]*\*\*[ \t]*)\n(\s*\n)*(?=\*\*)",
+                  r"\1\n- Not found in the knowledge base.\n\n", text)
+    return text, removed
 
 
 def _extractive(disease_class: str, hits: list[dict]) -> str:
@@ -139,6 +201,8 @@ def generate_advice(disease_class: str, hits: list[dict], model: str | None = No
                     "sources": sources_from_hits(hits), "mode": "extractive_fallback", "llm_error": str(e)[:300]}
         grounding = check_grounding(text, hits)
         if not grounding["unsupported_numbers"]:
+            text, removed = remove_unsupported(text, hits)
+            grounding["removed_bullets"] = removed
             return {"advice": text + f"\n\n{DISCLAIMER}", "sources": sources_from_hits(hits), "mode": "llm",
                     "model": model, "attempts": attempt, "grounding": grounding, "rejected": rejected}
         print(f"  attempt {attempt}: numbers not in any passage {grounding['unsupported_numbers']}")

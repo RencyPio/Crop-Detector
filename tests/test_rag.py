@@ -56,7 +56,7 @@ def test_grounding_check_catches_invented_dose_and_missing_citation():
     ok = check_grounding("- Spray mancozeb 2 g/l at 35 and 50 DAS. [1]", hits)
     assert ok == {"unsupported_numbers": [], "flagged_lines": [], "uncited_bullets": []}
     bad = check_grounding("- Spray mancozeb 3 g/l. [1]\n- Improve drainage.\n**When to get expert help:**\n- If unsure.", hits)
-    assert bad["unsupported_numbers"] == ["3"]
+    assert bad["unsupported_numbers"] == ["3", "3g"]
     assert bad["flagged_lines"] == ["- Spray mancozeb 3 g/l. [1]"]
     assert bad["uncited_bullets"] == ["- Improve drainage."]
 
@@ -67,6 +67,33 @@ def test_grounding_reads_number_words_and_odd_citations():
     assert check_grounding("- Rotate crops for two years. [1]", hits)["unsupported_numbers"] == ["2"]
     ok = check_grounding("- Spray 200-250 ml/ha【1†L5-L7】.", hits)
     assert ok["unsupported_numbers"] == [] and ok["uncited_bullets"] == []
+
+
+def test_number_must_match_its_unit():
+    from src.rag.generate import check_grounding
+    hits = [{"text": "Infection at 10 degrees, RH 90%. Bordeaux mixture 1. Per cent.", "metadata": {}}]
+    assert check_grounding("- Get help when loss exceeds 10 %. [1]", hits)["unsupported_numbers"] == ["10%"]
+    assert check_grounding("- Spray Bordeaux mixture at 1 %. [1]", hits)["unsupported_numbers"] == []
+
+
+def test_invented_cultural_tip_is_removed_but_sourced_one_stays():
+    from src.rag.generate import remove_unsupported
+    hits = [{"text": "Remove and destroy affected plant parts. Spray wettable sulphur 2 g/l.", "metadata": {}}]
+    answer = ("**What to do now (cultural / non-chemical):**\n- Remove and destroy affected plant parts. [1]\n"
+              "- Keep the crop well-watered and avoid excessive nitrogen. [1]\n\n"
+              "**Chemical options:**\n- Spray wettable sulphur 2 g/l. [1]")
+    text, removed = remove_unsupported(answer, hits)
+    assert "affected plant parts" in text and "sulphur" in text and "nitrogen" not in text
+    assert len(removed) == 1
+
+
+def test_section_left_empty_says_not_found():
+    from src.rag.generate import remove_unsupported
+    hits = [{"text": "Spray wettable sulphur 2 g/l.", "metadata": {}}]
+    answer = ("**What to do now (cultural / non-chemical):**\n- Monitor plants regularly for webbing. [1]\n\n"
+              "**Chemical options:**\n- Spray wettable sulphur 2 g/l. [1]")
+    text, removed = remove_unsupported(answer, hits)
+    assert "Not found in the knowledge base." in text and len(removed) == 1
 
 
 def test_retry_recovers_then_fallback(monkeypatch):
@@ -85,7 +112,7 @@ def test_retry_recovers_then_fallback(monkeypatch):
     import groq
     monkeypatch.setattr(groq, "Groq", fake_groq(["- Spray mancozeb 5 g/l. [1]", "- Spray mancozeb 2 g/l. [1]"]))
     out = G.generate_advice("Tomato___Late_blight", hits)
-    assert out["mode"] == "llm" and out["attempts"] == 2 and out["rejected"][0]["unsupported_numbers"] == ["5"]
+    assert out["mode"] == "llm" and out["attempts"] == 2 and out["rejected"][0]["unsupported_numbers"] == ["5", "5g"]
 
     monkeypatch.setattr(groq, "Groq", fake_groq(["- 5 g/l [1]", "- 7 g/l [1]"]))
     out = G.generate_advice("Tomato___Late_blight", hits)
